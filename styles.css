@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  input, button {
+    padding: 10px;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+    
